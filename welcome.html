@@ -84,14 +84,24 @@
         </section>      
     </div>
     <script src="./confetti.js"></script>
-    <script >
-        const start = () =>{
-            setTimeout(function(){
-                confetti.start();
-            });
-        };
-        start();
-    </script>
+<script>
+    const start = () => {
+        setTimeout(function() {
+            confetti.start();
+        }, 1000);
+    };
+
+    const stop = () => {
+        setTimeout(function() {
+            confetti.stop();
+            window.location.href = "https://smartcitylivinglab.iiit.ac.in/home/";
+        }, 10000);
+    };
+
+    start();
+    stop();
+</script>
+
     <script src="effect_script.js"></script>
 </body>
 </html>
