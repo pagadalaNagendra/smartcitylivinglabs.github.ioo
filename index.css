@@ -247,7 +247,7 @@ h1 {
     z-index: 3;
     text-align: center;
     opacity: 0; 
-    margin-top: 300px;
+    margin-top: 315px;
 	margin-left: -20px;
     animation: slideFadeIn 3s ease forwards;
 }
