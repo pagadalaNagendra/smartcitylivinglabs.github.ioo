@@ -3,7 +3,7 @@ document.body.addEventListener('onload', focus());
 document.addEventListener('keydown', detectSpaceKey);
 
 function detectSpaceKey(event) {
-    if (event.keyCode == 13) {
+    if (event.key === ' ') {
         showTime();
         initConfetti(); // Add confetti when Enter key is pressed
     }
